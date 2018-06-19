@@ -1,22 +1,26 @@
 {
-    "name": "aditi",
-    "displayName": "aditi",
-    "description": "",
-    "version": "0.1.0",
-    "publisher": "Lokesh",
-    "engines": {
-        "vscode": "^1.24.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Aditi",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Aditi-color-theme.json"
-            }
-        ]
-    }
+  "name": "aditi",
+  "displayName": "aditi",
+  "description": "",
+  "version": "0.1.0",
+  "publisher": "lokesh-coder",
+  "engines": {
+    "vscode": "^1.24.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lokesh-coder/aditi.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aditi",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Aditi-color-theme.json"
+      }
+    ]
+  }
 }
