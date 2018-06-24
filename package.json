@@ -1,7 +1,7 @@
 {
   "name": "aditi",
-  "displayName": "aditi",
-  "description": "",
+  "displayName": "Aditi - Dark theme",
+  "description": "Minimal purple theme",
   "version": "0.1.0",
   "publisher": "lokesh-coder",
   "engines": {
@@ -10,10 +10,17 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "purple",
+    "angular",
+    "dark"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/lokesh-coder/aditi.git"
   },
+  "icon": "aditi-theme-icon.png",
   "contributes": {
     "themes": [
       {
