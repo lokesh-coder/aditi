@@ -215,7 +215,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#b7a549"
       }
     },
     {
@@ -663,6 +663,25 @@
       "scope": "punctuation.decorator",
       "settings": {
         "foreground": "#e72d94"
+      }
+    },
+    {
+      "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#42bf81",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable.language.this",
+      "settings": {
+        "foreground": "#8292e8"
+      }
+    },
+    {
+      "scope": ["variable.other.object.property", "variable.other.property"],
+      "settings": {
+        "foreground": "#cca2c2"
       }
     }
   ]
