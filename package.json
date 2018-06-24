@@ -23,6 +23,9 @@
     "type": "git",
     "url": "https://github.com/lokesh-coder/aditi.git"
   },
+  "scripts": {
+    "publish": "vsce publish"
+  },
   "icon": "aditi-theme-icon.png",
   "contributes": {
     "themes": [
