@@ -2,7 +2,7 @@
   "name": "aditi",
   "displayName": "Aditi - Dark theme",
   "description": "Minimal purple theme",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "lokesh-coder",
   "engines": {
     "vscode": "^1.24.0"
