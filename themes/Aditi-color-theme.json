@@ -4,6 +4,7 @@
   "colors": {
     "activityBar.background": "#0c0517",
     "activityBar.border": "#211731",
+    "activityBar.dropBackground": "#31307190",
     "activityBarBadge.background": "#474787",
     "activityBarBadge.foreground": "#fff",
     "badge.background": "#227093",
@@ -14,7 +15,7 @@
     "dropdown.listBackground": "#40407a",
     "editor.background": "#0c0517",
     "editor.foreground": "#d4d4d4",
-    "editor.lineHighlightBackground": "#507b9e33",
+    "editor.lineHighlightBackground": "#507b9e17",
     "editor.lineHighlightBorder": null,
     "editor.selectionBackground": "#2f2f42cc",
     "editor.selectionHighlightBackground": "#feb34307",
@@ -22,7 +23,7 @@
     "editorCursor.foreground": "#9E9E9E",
     "editorError.foreground": "#f44336",
     "editorGroupHeader.tabsBackground": "#0c0517",
-    "editorGroupHeader.tabsBorder": "#3C424F",
+    "editorGroupHeader.tabsBorder": "#241e2c",
     "editorGutter.addedBackground": "#75b378",
     "editorGutter.background": "#0c0517",
     "editorGutter.deletedBackground": "#b7735d",
@@ -36,8 +37,8 @@
     "editorSuggestWidget.background": "#2c2c54",
     "editorSuggestWidget.selectedBackground": "#474787",
     "editorWidget.background": "#0c0517",
-    "extensionButton.prominentBackground": "#218c74",
-    "extensionButton.prominentHoverBackground": "#33d9b2",
+    "extensionButton.prominentBackground": "#636390",
+    "extensionButton.prominentHoverBackground": "#218c74",
     "gitDecoration.modifiedResourceForeground": "#00BCD4",
     "gitDecoration.untrackedResourceForeground": "#7dd47d",
     "input.background": "#ffffff09",
@@ -49,6 +50,7 @@
     "list.errorForeground": "#e87b58",
     "list.focusBackground": "#211731",
     "list.hoverBackground": "#313071",
+    "focusBorder": "#313071",
     "list.inactiveFocusBackground": "#211731",
     "list.inactiveSelectionBackground": "#313071",
     "notificationCenterHeader.background": "#313071",
@@ -84,7 +86,12 @@
     "textLink.activeForeground": "#d65093",
     "textLink.foreground": "#50a4d6",
     "welcomePage.buttonBackground": "#0c0517",
-    "welcomePage.buttonHoverBackground": "#f7f7f715"
+    "welcomePage.buttonHoverBackground": "#f7f7f715",
+    "editor.findMatchHighlightBackground": "#feb3433d",
+    "sideBar.foreground": "#8e8798",
+    "terminal.ansiYellow": "#ceab6a",
+    "terminal.ansiMagenta": "#b379a1",
+    "terminal.ansiGreen": "#61bb65"
   },
   "tokenColors": [
     {
@@ -689,7 +696,7 @@
     {
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#42bf81",
+        "foreground": "#495e90",
         "fontStyle": "bold"
       }
     },
@@ -798,6 +805,22 @@
       "scope": ["text.gitignore"],
       "settings": {
         "foreground": "#b1b0b0"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.env",
+        "entity.name.tag.yaml",
+        "support.function.builtin.shell"
+      ],
+      "settings": {
+        "foreground": "#b379a1"
+      }
+    },
+    {
+      "scope": ["source.env", "source.ini"],
+      "settings": {
+        "foreground": "#61bb65"
       }
     }
   ]
