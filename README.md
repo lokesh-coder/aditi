@@ -1,7 +1,9 @@
 <h1 align="center">
-  <br>
-  <a href="https://marketplace.visualstudio.com/items?itemName=lokesh-coder.aditi"><img src="aditi-theme-icon-2.png" alt="Pretty checkbox" width="100"></a>
-  <br> <br> Aditi - VSCode dark theme <br>
+
+![icon](/aditi-theme-icon-2.png)
+
+<br> Aditi - VSCode dark theme <br>
+
 </h1>
 
 <h4 align="center"> Just an another theme, seriously.</h4>
