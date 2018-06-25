@@ -746,10 +746,40 @@
         "entity.name.tag.inline.any.html",
         "punctuation.definition.tag.html",
         "entity.name.tag.block.any.html",
-        "entity.name.tag.html"
+        "entity.name.tag.html",
+        "support.type.property-name.css"
       ],
       "settings": {
         "foreground": "#b379a1"
+      }
+    },
+    {
+      "scope": ["constant.numeric.css", "punctuation.definition.constant.css"],
+      "settings": {
+        "foreground": "#b2b1ce"
+      }
+    },
+    {
+      "scope": ["meta.property-value.scss"],
+      "settings": {
+        "foreground": "#009688"
+      }
+    },
+    {
+      "scope": ["variable.scss"],
+      "settings": {
+        "foreground": "#00BCD4"
+      }
+    },
+    {
+      "scope": [
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.cm.css",
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.em.css"
+      ],
+      "settings": {
+        "foreground": "#6b84b3"
       }
     },
     {
