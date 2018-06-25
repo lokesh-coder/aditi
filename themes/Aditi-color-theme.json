@@ -204,6 +204,12 @@
       }
     },
     {
+      "scope": ["constant.language.json"],
+      "settings": {
+        "foreground": "#c34c75"
+      }
+    },
+    {
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [
         "string",
@@ -410,7 +416,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#ceab6a"
       }
     },
     {
@@ -735,8 +741,7 @@
     {
       "scope": ["string.quoted.double.html"],
       "settings": {
-        "foreground": "#009688",
-        "fontStyle": "italic bold"
+        "foreground": "#009688"
       }
     },
     {
@@ -747,7 +752,8 @@
         "punctuation.definition.tag.html",
         "entity.name.tag.block.any.html",
         "entity.name.tag.html",
-        "support.type.property-name.css"
+        "support.type.property-name.css",
+        "keyword.other.definition.ini"
       ],
       "settings": {
         "foreground": "#b379a1"
@@ -786,6 +792,12 @@
       "scope": ["entity.name.tag.other.html"],
       "settings": {
         "foreground": "#6fabd8"
+      }
+    },
+    {
+      "scope": ["text.gitignore"],
+      "settings": {
+        "foreground": "#b1b0b0"
       }
     }
   ]
