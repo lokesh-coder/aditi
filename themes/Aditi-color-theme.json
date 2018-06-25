@@ -170,14 +170,35 @@
     {
       "name": "Function, Special Method",
       "scope": [
-        "entity.name.function",
-        "meta.function-call",
         "variable.function",
         "support.function",
         "keyword.other.special-method"
       ],
       "settings": {
         "foreground": "#82AAFF"
+      }
+    },
+    {
+      "scope": ["support.function"],
+      "settings": {
+        "foreground": "#009688"
+      }
+    },
+    {
+      "scope": [
+        "storage.modifier.ts",
+        "support.type.primitive.ts",
+        "storage.modifier.js",
+        "support.type.primitive.js"
+      ],
+      "settings": {
+        "foreground": "#316184"
+      }
+    },
+    {
+      "scope": ["entity.name.function.ts", "entity.name.function.js"],
+      "settings": {
+        "foreground": "#b379a1"
       }
     },
     {
@@ -316,7 +337,8 @@
       "name": "HTML Attributes",
       "scope": [
         "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
+        "text.html.basic entity.other.attribute-name",
+        "entity.other.attribute-name.localname.xml"
       ],
       "settings": {
         "foreground": "#ad9b7b"
@@ -714,7 +736,7 @@
         "variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#b8d3e8"
+        "foreground": "#ad9b7b"
       }
     },
     {
@@ -746,7 +768,7 @@
       }
     },
     {
-      "scope": ["string.quoted.double.html"],
+      "scope": ["string.quoted.double.html", "string.quoted.double.xml"],
       "settings": {
         "foreground": "#009688"
       }
@@ -760,7 +782,9 @@
         "entity.name.tag.block.any.html",
         "entity.name.tag.html",
         "support.type.property-name.css",
-        "keyword.other.definition.ini"
+        "keyword.other.definition.ini",
+        "entity.name.tag.localname.xml",
+        "punctuation.definition.tag.xml"
       ],
       "settings": {
         "foreground": "#b379a1"
@@ -821,6 +845,17 @@
       "scope": ["source.env", "source.ini"],
       "settings": {
         "foreground": "#61bb65"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.keyword.scss",
+        "keyword.control.at-rule.function.scss",
+        "keyword.control.if.scss",
+        "keyword.control.return.scss"
+      ],
+      "settings": {
+        "foreground": "#e6528e"
       }
     }
   ]
