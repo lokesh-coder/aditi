@@ -78,6 +78,8 @@
     "tab.activeBorder": "#7AABDB",
     "tab.border": "#2f3542",
     "tab.inactiveBackground": "#0c0517",
+    "tab.activeForeground": "#c5c4d2",
+    "tab.inactiveForeground": "#788692",
     "terminal.background": "#0c0517",
     "textLink.activeForeground": "#d65093",
     "textLink.foreground": "#50a4d6",
