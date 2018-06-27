@@ -30,9 +30,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Aditi",
+        "label": "Aditi Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Aditi-color-theme.json"
+        "path": "./themes/aditi-dark.json"
+      },
+      {
+        "label": "Aditi Light",
+        "uiTheme": "vs",
+        "path": "./themes/aditi-light.json"
       }
     ]
   }
