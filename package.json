@@ -32,12 +32,12 @@
       {
         "label": "Aditi Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/aditi-dark.json"
+        "path": "./themes/aditi-dark-color-theme.json"
       },
       {
         "label": "Aditi Light",
         "uiTheme": "vs",
-        "path": "./themes/aditi-light.json"
+        "path": "./themes/aditi-light-color-theme.json"
       }
     ]
   }
