@@ -111,10 +111,12 @@
         "support.type.property-name.css",
         "meta.definition.variable",
         "variable.object.property",
-        "entity.other.attribute-name.html"
+        "entity.other.attribute-name.html",
+        "variable.other.readwrite",
+        "variable.parameter"
       ],
       "settings": {
-        "foreground": "#574b90"
+        "foreground": "#1c98bf"
       }
     },
     {
@@ -128,6 +130,13 @@
       }
     },
     {
+      "name": "Enclose",
+      "scope": ["entity.name.tag.block.any", "meta.tag.block.any.html"],
+      "settings": {
+        "foreground": "#1d5b79"
+      }
+    },
+    {
       "name": "Boolean, null",
       "scope": ["constant.language.json", "constant.language.null"],
       "settings": {
@@ -138,28 +147,26 @@
       "name": "String",
       "scope": ["string.quoted", "string.quoted", "string.template"],
       "settings": {
-        "foreground": "#17b36a"
+        "foreground": "#009688"
       }
     },
     {
-      "name": "Type",
-      "scope": ["storage.type"],
+      "name": "Type, Keyword",
+      "scope": ["storage.type", "keyword.control", "storage.modifier.ts"],
       "settings": {
-        "foreground": "#f19066"
-      }
-    },
-    {
-      "name": "Keyword",
-      "scope": ["keyword.control"],
-      "settings": {
-        "foreground": "#d8b6b6"
+        "foreground": "#7e7eb9"
       }
     },
     {
       "name": "Block",
-      "scope": ["meta.block", "meta.object.member"],
+      "scope": [
+        "meta.block",
+        "meta.object.member",
+        "entity.name.type.class",
+        "entity.other.inherited-class"
+      ],
       "settings": {
-        "foreground": "#fa8231"
+        "foreground": "#c57f97"
       }
     },
     {
@@ -167,7 +174,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#5b758a"
+        "foreground": "#c1cbd4"
       }
     },
     {
@@ -178,6 +185,24 @@
       ],
       "settings": {
         "foreground": "#6a89cc"
+      }
+    },
+    {
+      "name": "Method",
+      "scope": [
+        "meta.definition.method",
+        "meta.method.declaration",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#2a80cc"
+      }
+    },
+    {
+      "name": "Typescript type",
+      "scope": ["entity.name.type", "support.type.primitive"],
+      "settings": {
+        "foreground": "#9f8bb9"
       }
     }
   ]
