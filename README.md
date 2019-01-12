@@ -2,7 +2,7 @@
 
 ![icon](/aditi-theme-icon-2.png)
 
-<br> Aditi - VSCode dark theme <br>
+<br> Aditi - Dark theme for VSCode <br>
 
 </h1>
 
